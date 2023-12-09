@@ -14,3 +14,16 @@ mysql -u root -p -h localhost school_system < scripts/insert_data.sql
 Step 3: Clone the project and run below command:
 
 node app.js
+
+### Request methods
+
+
+| Method   | Description                              |
+| -------- | ---------------------------------------- |
+| `GET`    | Used to show the summary. |   
+
+### Examples
+
+| Method   | URL                                      | Description                               |
+| -------- | ---------------------------------------- | ----------------------------------------  |
+| `GET`    | `/api/summary`                            | Retrieve summary of student.  |
